@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1020</width>
-    <height>734</height>
+    <width>1013</width>
+    <height>675</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Factura</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/User/Documents/PROYECTO_POO/iconos/ventas.ico</normaloff>C:/Users/User/Documents/PROYECTO_POO/iconos/ventas.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 3, 66);</string>
@@ -23,7 +27,7 @@
       <x>30</x>
       <y>40</y>
       <width>971</width>
-      <height>191</height>
+      <height>181</height>
      </rect>
     </property>
     <property name="font">
@@ -50,7 +54,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -70,7 +74,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -90,7 +94,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -110,7 +114,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -130,7 +134,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -302,7 +306,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>240</y>
+      <y>220</y>
       <width>971</width>
       <height>181</height>
      </rect>
@@ -454,9 +458,9 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>420</y>
+      <y>410</y>
       <width>971</width>
-      <height>251</height>
+      <height>191</height>
      </rect>
     </property>
     <property name="font">
@@ -498,7 +502,7 @@ color: rgb(0, 0, 0);</string>
        <x>30</x>
        <y>50</y>
        <width>601</width>
-       <height>91</height>
+       <height>71</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -510,7 +514,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>710</x>
-       <y>30</y>
+       <y>20</y>
        <width>101</width>
        <height>51</height>
       </rect>
@@ -530,7 +534,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>770</x>
-       <y>90</y>
+       <y>70</y>
        <width>41</width>
        <height>41</height>
       </rect>
@@ -550,7 +554,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>750</x>
-       <y>140</y>
+       <y>120</y>
        <width>71</width>
        <height>51</height>
       </rect>
@@ -570,7 +574,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>830</x>
-       <y>40</y>
+       <y>30</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -584,7 +588,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>830</x>
-       <y>100</y>
+       <y>80</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -598,7 +602,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>830</x>
-       <y>150</y>
+       <y>130</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -612,7 +616,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>150</y>
+       <y>130</y>
        <width>111</width>
        <height>51</height>
       </rect>
@@ -631,8 +635,8 @@ color: rgb(0, 0, 0);</string>
     <widget class="QLabel" name="label_15">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>190</y>
+       <x>340</x>
+       <y>130</y>
        <width>101</width>
        <height>51</height>
       </rect>
@@ -652,7 +656,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>160</y>
+       <y>140</y>
        <width>181</width>
        <height>31</height>
       </rect>
@@ -665,8 +669,8 @@ color: rgb(0, 0, 0);</string>
     <widget class="QComboBox" name="cboempleado">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>200</y>
+       <x>430</x>
+       <y>140</y>
        <width>271</width>
        <height>31</height>
       </rect>
@@ -688,7 +692,7 @@ color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -707,7 +711,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>690</y>
+      <y>620</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -730,7 +734,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>850</x>
-      <y>690</y>
+      <y>620</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -753,7 +757,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>690</y>
+      <y>620</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -777,7 +781,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>490</x>
-      <y>690</y>
+      <y>620</y>
       <width>141</width>
       <height>41</height>
      </rect>

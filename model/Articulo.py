@@ -1,14 +1,18 @@
 class Articulo:
     #Con encapsulamiento
 
-    def __init__(self, idArticulo, idCategoria, codigo, descripcion, und_medida, stock, estado):
-        self.__idArticulo = idArticulo
-        self.__idCategoria = idCategoria
-        self.__codigo = codigo
-        self.__descripcion = descripcion
-        self.__und_medida = und_medida
+    def __init__(self, idarticulo, idcategoria, codigo, descripcion, und_medida, stock, estado):
+        self.idarticulo = idarticulo
+        self.idcategoria = idcategoria
+        self.codigo = codigo
+        self.descripcion = descripcion
+        self.und_medida = und_medida
+        self.stock = stock
+        self.estado = estado
     
-    def set_idArticulo(self, idArticulo):
+
+    '''
+        def set_idArticulo(self, idArticulo):
         self.__idArticulo = idArticulo
     def set_idCategoria(self, idCategoria):
         self.__idCategoria = idCategoria
@@ -38,5 +42,10 @@ class Articulo:
     def get_estado(self, estado):
         return estado
     
+    
+    
+    '''
+
+
     
 

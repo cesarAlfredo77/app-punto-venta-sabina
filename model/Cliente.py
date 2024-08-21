@@ -5,13 +5,15 @@ class Cliente(Persona):
     def __init__(self, idPersona, tipoDoc, numDoc, nombres, apellidos, fechaNac, telefono, correo, direccion, idCliente, idGrupoCli, estContribuyente, condContribuyente, 
                  lineaCredito, condPago):
         super().__init__(idPersona, tipoDoc, numDoc, nombres, apellidos, fechaNac, telefono, correo, direccion)
-        self.__idCliente = idCliente
-        self.__idGrupoCli = idGrupoCli
-        self.__estContribuyente = estContribuyente
-        self.__condContribuyente = condContribuyente
-        self.__lineaCredito = lineaCredito
-        self.__condPago = condPago
+        self.idCliente = idCliente
+        self.idGrupoCli = idGrupoCli
+        self.estContribuyente = estContribuyente
+        self.condContribuyente = condContribuyente
+        self.lineaCredito = lineaCredito
+        self.condPago = condPago
 
+
+'''
 
     def set_idCliente(self, idCliente):
         self.__idCliente = idCliente
@@ -44,8 +46,4 @@ class Cliente(Persona):
         return f"Desde cliente, idcliente: {self.__idCliente}, Desde padre {super().imprimedatosPersona()}"
 
     
-
-
-
-    
-
+'''

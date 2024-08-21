@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 127);
+alternate-background-color: rgb(170, 255, 0);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PUNTO DE VENTA SABINA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>531</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagenes/fondo_pto_venta.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInventario">
+    <property name="title">
+     <string>Inventario</string>
+    </property>
+    <addaction name="actionCategoria"/>
+    <addaction name="actionArticulo"/>
+   </widget>
+   <widget class="QMenu" name="menuVentas">
+    <property name="title">
+     <string>Ventas</string>
+    </property>
+    <addaction name="actionGrupo_Cliente"/>
+   </widget>
+   <widget class="QMenu" name="menuGeneral">
+    <property name="title">
+     <string>General</string>
+    </property>
+    <addaction name="actionPersona"/>
+    <addaction name="actionEmpleado"/>
+    <addaction name="actionUsuario"/>
+   </widget>
+   <widget class="QMenu" name="menuSalir">
+    <property name="title">
+     <string>Salir</string>
+    </property>
+    <addaction name="actionCerrar_Sesion"/>
+   </widget>
+   <addaction name="menuInventario"/>
+   <addaction name="menuVentas"/>
+   <addaction name="menuGeneral"/>
+   <addaction name="menuSalir"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCategoria">
+   <property name="text">
+    <string>Categoria</string>
+   </property>
+  </action>
+  <action name="actionArticulo">
+   <property name="text">
+    <string>Articulo</string>
+   </property>
+  </action>
+  <action name="actionPersona">
+   <property name="text">
+    <string>Persona</string>
+   </property>
+  </action>
+  <action name="actionEmpleado">
+   <property name="text">
+    <string>Empleado</string>
+   </property>
+  </action>
+  <action name="actionUsuario">
+   <property name="text">
+    <string>Usuario</string>
+   </property>
+  </action>
+  <action name="actionCerrar_Sesion">
+   <property name="text">
+    <string>Cerrar Sesion</string>
+   </property>
+  </action>
+  <action name="actionGrupo_Cliente">
+   <property name="text">
+    <string>Grupo Cliente</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>471</width>
-    <height>538</height>
+    <height>515</height>
    </rect>
   </property>
   <property name="font">
@@ -55,7 +55,7 @@
      <string notr="true">color: rgb(255, 255, 253);</string>
     </property>
     <property name="text">
-     <string>ARTICULO</string>
+     <string>CATEGORIA</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -67,7 +67,7 @@
       <x>10</x>
       <y>50</y>
       <width>451</width>
-      <height>301</height>
+      <height>241</height>
      </rect>
     </property>
     <property name="font">
@@ -86,9 +86,9 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>60</y>
-       <width>101</width>
+       <x>40</x>
+       <y>70</y>
+       <width>81</width>
        <height>31</height>
       </rect>
      </property>
@@ -103,15 +103,15 @@
       <string notr="true">color: rgb(255, 255, 253);</string>
      </property>
      <property name="text">
-      <string>ID. CATEGORIA:</string>
+      <string>NOMBRE:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_8">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>140</y>
-       <width>91</width>
+       <x>10</x>
+       <y>100</y>
+       <width>111</width>
        <height>31</height>
       </rect>
      </property>
@@ -129,9 +129,9 @@
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>260</y>
-       <width>61</width>
+       <x>40</x>
+       <y>190</y>
+       <width>71</width>
        <height>31</height>
       </rect>
      </property>
@@ -149,8 +149,8 @@
     <widget class="QComboBox" name="cboestado">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>260</y>
+       <x>120</x>
+       <y>190</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -160,12 +160,29 @@
 color: rgb(0, 0, 0);</string>
      </property>
     </widget>
+    <widget class="QLineEdit" name="txtnombre">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 253);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>110</x>
+       <x>80</x>
        <y>20</y>
-       <width>21</width>
+       <width>41</width>
        <height>31</height>
       </rect>
      </property>
@@ -183,10 +200,10 @@ color: rgb(0, 0, 0);</string>
       <string>ID:</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="txtidarticulo">
+    <widget class="QLineEdit" name="txtidcategoria">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>120</x>
        <y>20</y>
        <width>291</width>
        <height>31</height>
@@ -203,8 +220,8 @@ color: rgb(0, 0, 0);</string>
     <widget class="QLineEdit" name="txtdescripcion">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>140</y>
+       <x>120</x>
+       <y>110</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -215,128 +232,6 @@ color: rgb(0, 0, 0);</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="cboidcategoria">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>60</y>
-       <width>291</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="txtcodigo">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>100</y>
-       <width>291</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 253);
-color: rgb(0, 0, 0);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>80</x>
-       <y>100</y>
-       <width>51</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>CODIGO:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>40</x>
-       <y>170</y>
-       <width>91</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>UND. MEDIDA:</string>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="cboundmedida">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>180</y>
-       <width>291</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="txtstock">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>220</y>
-       <width>291</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 253);
-color: rgb(0, 0, 0);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>80</x>
-       <y>220</y>
-       <width>51</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>STOCK:</string>
      </property>
     </widget>
    </widget>
@@ -344,7 +239,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>480</y>
+      <y>460</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -367,7 +262,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>480</y>
+      <y>460</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -390,7 +285,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>480</y>
+      <y>460</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -409,13 +304,13 @@ color: rgb(0, 0, 0);</string>
      <string>SALIR</string>
     </property>
    </widget>
-   <widget class="QTableWidget" name="tblarticulos">
+   <widget class="QTableWidget" name="tblcategorias">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>360</y>
+      <y>300</y>
       <width>451</width>
-      <height>101</height>
+      <height>151</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -434,27 +329,12 @@ color: rgb(0, 0, 0);</string>
     </column>
     <column>
      <property name="text">
-      <string>Nombre Categoria</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Codigo</string>
+      <string>Nombre</string>
      </property>
     </column>
     <column>
      <property name="text">
       <string>Descripcion</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Und. Medida</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Stock</string>
      </property>
     </column>
     <column>

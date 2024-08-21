@@ -7,11 +7,15 @@
     <x>0</x>
     <y>0</y>
     <width>582</width>
-    <height>526</height>
+    <height>576</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Cliente</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/User/Documents/PROYECTO_POO/iconos/usuario.ico</normaloff>C:/Users/User/Documents/PROYECTO_POO/iconos/usuario.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 3, 66);</string>
@@ -21,14 +25,14 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>70</y>
+      <y>40</y>
       <width>551</width>
-      <height>361</height>
+      <height>301</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>9</pointsize>
+      <pointsize>8</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -42,9 +46,9 @@
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>110</x>
-       <y>90</y>
-       <width>131</width>
+       <x>120</x>
+       <y>20</y>
+       <width>91</width>
        <height>31</height>
       </rect>
      </property>
@@ -59,32 +63,12 @@
       <string>COD.CLIENTE:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_3">
-     <property name="geometry">
-      <rect>
-       <x>40</x>
-       <y>130</y>
-       <width>201</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>EST. CONTRIBUYENTE:</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>170</y>
-       <width>221</width>
+       <x>50</x>
+       <y>140</y>
+       <width>151</width>
        <height>31</height>
       </rect>
      </property>
@@ -103,7 +87,7 @@
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>250</y>
+       <y>220</y>
        <width>121</width>
        <height>31</height>
       </rect>
@@ -123,7 +107,7 @@
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>210</y>
+       <y>180</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -143,7 +127,7 @@
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>90</y>
+       <y>20</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -157,7 +141,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>210</y>
+       <y>180</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -171,7 +155,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>300</y>
+       <y>260</y>
        <width>121</width>
        <height>31</height>
       </rect>
@@ -187,12 +171,54 @@ color: rgb(0, 0, 0);</string>
       <string>ID PERSONA:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_14">
+    <widget class="QComboBox" name="cboestcontribuyente">
      <property name="geometry">
       <rect>
-       <x>90</x>
-       <y>40</y>
-       <width>151</width>
+       <x>240</x>
+       <y>100</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 254);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cbocondcontribuyente">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>140</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 254);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cboidpersona">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>260</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 254);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>60</y>
+       <width>111</width>
        <height>31</height>
       </rect>
      </property>
@@ -211,7 +237,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>40</y>
+       <y>60</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -221,53 +247,31 @@ color: rgb(0, 0, 0);</string>
 color: rgb(0, 0, 0);</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="cboestcontribuyente">
+    <widget class="QLabel" name="label_9">
      <property name="geometry">
       <rect>
-       <x>240</x>
-       <y>130</y>
-       <width>291</width>
+       <x>60</x>
+       <y>100</y>
+       <width>141</width>
        <height>31</height>
       </rect>
      </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 254);
-color: rgb(0, 0, 0);</string>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>EST. CONTRIBUYENTE:</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="cbocondcontribuyente">
+    <widget class="QComboBox" name="cbocondicion">
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>170</y>
-       <width>291</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 254);
-color: rgb(0, 0, 0);</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="txtcondpago">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>250</y>
-       <width>291</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 254);
-color: rgb(0, 0, 0);</string>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="cboidpersona">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>300</y>
+       <y>220</y>
        <width>291</width>
        <height>31</height>
       </rect>
@@ -282,14 +286,14 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>20</y>
+      <y>10</y>
       <width>431</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -311,9 +315,9 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>450</y>
+      <y>520</y>
       <width>111</width>
-      <height>51</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -352,9 +356,9 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>450</y>
+      <y>520</y>
       <width>111</width>
-      <height>51</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -378,9 +382,9 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>450</y>
+      <y>520</y>
       <width>111</width>
-      <height>51</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -414,6 +418,55 @@ color: rgb(0, 0, 0);</string>
     <property name="flat">
      <bool>false</bool>
     </property>
+   </widget>
+   <widget class="QTableWidget" name="tblcliente">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>350</y>
+      <width>561</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Grupo Cliente</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Est. Contribuyente</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cond. Contribuyente</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Linea Credito</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cond. Pago</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Id Persona</string>
+     </property>
+    </column>
    </widget>
   </widget>
  </widget>

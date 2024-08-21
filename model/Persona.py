@@ -30,29 +30,29 @@ class Persona:
     def set_direccion(self, direccion):
         self.__direccion = direccion
     
-    def get_idPersona(self, idPersona):
+    def get_idPersona(self):
         return self.__idPersona
-    def get_tipoDoc(self, tipoDoc):
+    def get_tipoDoc(self):
         return self.__tipoDoc
-    def get_numDoc(self, numDoc):
+    def get_numDoc(self):
         return self.__numDoc
-    def get_nombres(self, nombres):
+    def get_nombres(self):
         return self.__nombres
-    def get_apellidos(self, apellidos):
+    def get_apellidos(self):
         return self.__apellidos
-    def get_fechaNac(self, fechaNac):
+    def get_fechaNac(self):
         return self.__fechaNac
-    def get_telefono(self, telefono):
+    def get_telefono(self):
         return self.__telefono
-    def get_correo(self, correo):
+    def get_correo(self):
         return self.__correo
-    def get_direccion(self, direccion):
+    def get_direccion(self):
         return self.__direccion
 
-    def imprimePersona(self):
-        return "Desde padre"
-    def imprimedatosPersona(self):
-        return f"Nombres: {self.__nombres}, Apellidos: {self.__apellidos}, Nro. Doc.: {self.__numDoc}"
+    #def imprimePersona(self):
+    #    return "Desde padre"
+    #def imprimedatosPersona(self):
+    #    return f"Nombres: {self.__nombres}, Apellidos: {self.__apellidos}, Nro. Doc.: {self.__numDoc}"
 
 
 

@@ -8,6 +8,7 @@ class Usuario:
         self.__permiso = permiso
         self.__estado = estado
 
+'''
     def set_idUsuario(self, idUsuario):
         self.__idUsuario = idUsuario    
     def set_idEmpleado(self, idEmpleado):
@@ -33,3 +34,6 @@ class Usuario:
         return self.__permiso
     def get_estado(self, estado):
         return self.__estado
+
+
+'''

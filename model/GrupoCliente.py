@@ -1,12 +1,13 @@
 class GrupoCliente:
     
-    def __init__(self, idGrupoCli, nombre, beneficio):
-        self.__idGrupoCli = idGrupoCli
-        self.__nombre = nombre
-        self.__beneficio = beneficio
+    def __init__(self, idgrupocli, nombre, beneficio, estado):
+        self.idgrupocli = idgrupocli
+        self.nombre = nombre
+        self.beneficio = beneficio
+        self.estado = estado
 
 
- 
+'''
     def set_idGrupoCli(self, idGrupoCli):
         self.__idGrupoCli = idGrupoCli
     def set_nombre(self, nombre):
@@ -21,5 +22,8 @@ class GrupoCliente:
         return self.__nombre
     def get_beneficio(self, beneficio):
         return self.__beneficio
+
+''' 
+
 
 

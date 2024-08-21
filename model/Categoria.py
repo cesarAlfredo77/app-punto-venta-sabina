@@ -1,12 +1,12 @@
 class Categoria:
     
-    def __init__(self, idCategoria, nombre, descripcion, estado):
-        self.__idCategoria = idCategoria
-        self.__nombre = nombre
-        self.__descripcion = descripcion
-        self.__estado = estado
+    def __init__(self, idcategoria, nombre, descripcion, estado):
+        self.idcategoria = idcategoria
+        self.nombre = nombre
+        self.descripcion = descripcion
+        self.estado = estado
 
- 
+    '''
     def set_idCategoria(self, idCategoria):
         self.__idCategoria = idCategoria
     def set_nombre(self, nombre):
@@ -24,4 +24,6 @@ class Categoria:
         return self.__descripcion
     def get_estado(self, estado):
         return self.__estado
-
+ 
+    '''
+   
